@@ -1,0 +1,1 @@
+// no animations except hover - JS not required

@@ -1,5 +1,5 @@
 :root {
-  --bg: #f5f7fa;
+  --bg: #f9f9f9;
   --card: #ffffff;
   --muted: #666;
   --accent: #0ea5a2;
@@ -106,9 +106,9 @@ body {
 .page-header h1 {
   margin: 0;
 }
-.home-link {
+.home-link:hover {
   text-decoration: none;
-  color: var(--accent);
+  color: darkgrey;
 }
 .inventor-info {
   display: flex;

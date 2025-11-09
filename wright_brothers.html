@@ -15,6 +15,27 @@
         text-decoration: none;
         color: #7c3aed;
       }
+      .bio {
+        margin-top: 30px;
+        line-height: 1.7;
+        text-align: justify;
+        font-size: 1rem;
+        color: var(--text, #333);
+      }
+      .bio h2 {
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+        color: var(--accent, #222);
+        border-bottom: 2px solid var(--accent, #222);
+        display: inline-block;
+        padding-bottom: 4px;
+      }
+      .bio h3 {
+        margin-top: 18px;
+        margin-bottom: 8px;
+        color: black;
+        font-weight: 600;
+      }
     </style>
   </head>
   <body>
@@ -23,7 +44,10 @@
       <h1>Wright Brothers</h1>
     </header>
     <main class="inventor-info">
-      <img src="./Images/Wright_Brothers_at_home,_1909.jpg" alt="Wright Brothers" />
+      <img
+        src="./Images/Wright_Brothers_at_home,_1909.jpg"
+        alt="Wright Brothers"
+      />
       <div class="info">
         <p>
           <strong>Born:</strong> 1871/1874 | <strong>Died:</strong> 1948/1949
@@ -34,10 +58,38 @@
           <li>First controlled powered flight</li>
           <li>Aerodynamic studies</li>
         </ul>
-        <p class="fun">💡 Fun fact: Learn more on
+
+        <section class="bio">
+          <h2>Biography</h2>
+
+          <h3>Early Life</h3>
+          <p>
+            Orville and Wilbur Wright were born in the late 19th century in
+            Dayton, Ohio. Fascinated by mechanics, they operated a bicycle
+            business that financed their aeronautical experiments.
+          </p>
+
+          <h3>Scientific Work</h3>
+          <p>
+            In 1903, they achieved the first controlled, sustained flight in a
+            powered aircraft. Their methodical testing and wind-tunnel research
+            established key principles of aerodynamics.
+          </p>
+
+          <h3>Legacy</h3>
+          <p>
+            [The Wright brothers’ achievement ushered in the age of flight,
+            transforming travel and connecting the modern world.
+          </p>
+        </section>
+        <br />
+        <br />
+        <p class="fun">
+          💡 Fun fact: Learn more on
           <a
             href="https://en.wikipedia.org/wiki/Wright_brothers"
-            target="_blank" style="font-weight: bold;"
+            target="_blank"
+            style="font-weight: bold"
           >
             Wikipedia.</a
           >

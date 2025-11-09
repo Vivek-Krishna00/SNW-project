@@ -13,7 +13,28 @@
 
       a:hover {
         text-decoration: none;
-        color: #3b82f6 ;
+        color: #3b82f6;
+      }
+      .bio {
+        margin-top: 30px;
+        line-height: 1.7;
+        text-align: justify;
+        font-size: 1rem;
+        color: var(--text, #333);
+      }
+      .bio h2 {
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+        color: var(--accent, #222);
+        border-bottom: 2px solid var(--accent, #222);
+        display: inline-block;
+        padding-bottom: 4px;
+      }
+      .bio h3 {
+        margin-top: 18px;
+        margin-bottom: 8px;
+        color: black;
+        font-weight: 600;
       }
     </style>
   </head>
@@ -23,7 +44,10 @@
       <h1>Alexander Graham Bell</h1>
     </header>
     <main class="inventor-info">
-      <img src="./Images/Alexander_Graham_Bell.jpg" alt="Alexander Graham Bell" />
+      <img
+        src="./Images/Alexander_Graham_Bell.jpg"
+        alt="Alexander Graham Bell"
+      />
       <div class="info">
         <p><strong>Born:</strong> 1847 | <strong>Died:</strong> 1922</p>
         <p>Inventor of the telephone.</p>
@@ -32,11 +56,41 @@
           <li>Telephone invention</li>
           <li>Work on speech and hearing devices</li>
         </ul>
+
+        <section class="bio">
+          <h2>Biography</h2>
+
+          <h3>Early Life</h3>
+          <p>
+            Born in Edinburgh, Scotland, in 1847, Bell was raised in a family of
+            speech and elocution experts. His mother’s deafness inspired him to
+            study sound and communication at an early age.
+          </p>
+
+          <h3>Scientific Work</h3>
+          <p>
+            Bell’s fascination with sound led to the invention of the telephone
+            in 1876, which revolutionized global communication. He also
+            contributed to advancements in aviation, optical telecommunications,
+            and medical technology through the Volta Laboratory.
+          </p>
+
+          <h3>Legacy</h3>
+          <p>
+            Bell’s work not only created the telecommunications industry but
+            also advanced understanding of speech and hearing. His innovations
+            continue to shape how the world connects and communicates.
+          </p>
+        </section>
+        <br />
+        <br />
         <p class="fun">
-          💡 Fun fact: Learn more on 
+          💡 Fun fact: Learn more on
           <a
             href="https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
-            target="_blank" style="font-weight: bold;">Wikipedia.</a
+            target="_blank"
+            style="font-weight: bold"
+            >Wikipedia.</a
           >
         </p>
       </div>

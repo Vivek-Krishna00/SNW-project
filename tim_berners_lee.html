@@ -15,6 +15,27 @@
         text-decoration: none;
         color: #06b6d4;
       }
+      .bio {
+        margin-top: 30px;
+        line-height: 1.7;
+        text-align: justify;
+        font-size: 1rem;
+        color: var(--text, #333);
+      }
+      .bio h2 {
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+        color: var(--accent, #222);
+        border-bottom: 2px solid var(--accent, #222);
+        display: inline-block;
+        padding-bottom: 4px;
+      }
+      .bio h3 {
+        margin-top: 18px;
+        margin-bottom: 8px;
+        color: black;
+        font-weight: 600;
+      }
     </style>
   </head>
   <body>
@@ -32,10 +53,39 @@
           <li>Invented the World Wide Web</li>
           <li>HTTP & HTML concepts</li>
         </ul>
-        <p class="fun">💡 Fun fact: Learn more on
+
+        <section class="bio">
+          <h2>Biography</h2>
+
+          <h3>Early Life</h3>
+          <p>
+            Born in London in 1955, Berners-Lee grew up with computer scientists
+            as parents. His curiosity about information systems guided his
+            studies at Oxford.
+          </p>
+
+          <h3>Scientific Work</h3>
+          <p>
+            At CERN, he invented the World Wide Web, creating HTML, HTTP, and
+            the first web browser. His open-access vision made global
+            information sharing possible.
+          </p>
+
+          <h3>Legacy</h3>
+          <p>
+            Knighted in 2004, Berners-Lee continues to champion privacy and open
+            standards. His invention changed how humanity communicates and
+            learns.
+          </p>
+        </section>
+        <br />
+        <br />
+        <p class="fun">
+          💡 Fun fact: Learn more on
           <a
             href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"
-            target="_blank" style="font-weight: bold;"
+            target="_blank"
+            style="font-weight: bold"
           >
             Wikipedia.</a
           >
